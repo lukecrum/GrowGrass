@@ -26,10 +26,10 @@ class GameScene: SKScene {
         grassLabel.zPosition = 1
         self.addChild(grassLabel)
         
-         var grassTimer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(moveGrass), userInfo: nil, repeats: true)
+			_ = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(moveGrass), userInfo: nil, repeats: true)
         }
     
-    func moveGrass()
+	@objc func moveGrass()
     {
         grass.position.y = grass.position.y + 0.5
         print("moved grass")
