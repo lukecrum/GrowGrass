@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Grow Grass
 //
-//  Created by Luke Crum on 8/3/17.
+//  Created by ________ on 8/3/17.
 //  Copyright © 2017 Crappy Apps. All rights reserved.
 //
 

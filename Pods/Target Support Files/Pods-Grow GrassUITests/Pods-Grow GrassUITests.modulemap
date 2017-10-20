@@ -1,0 +1,6 @@
+framework module Pods_Grow_GrassUITests {
+  umbrella header "Pods-Grow GrassUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

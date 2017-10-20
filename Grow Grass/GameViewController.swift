@@ -2,7 +2,7 @@
 //  GameViewController.swift
 //  Grow Grass
 //
-//  Created by Luke Crum on 8/3/17.
+//  Created by _______ on 8/3/17.
 //  Copyright © 2017 Crappy Apps. All rights reserved.
 //
 
@@ -27,8 +27,8 @@ class GameViewController: UIViewController {
             
             view.ignoresSiblingOrder = true
             
-            view.showsFPS = true
-            view.showsNodeCount = true
+            view.showsFPS = false
+            view.showsNodeCount = false
         }
     }
 
